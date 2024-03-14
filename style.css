@@ -26,9 +26,8 @@ body {
     text-align: left;
     width: 100%;
     font-size: 32px;
-    color: #6FFF57;
+    color: #6fff57;
 }
-
 .titulo-principal span{
     color: var(--verde);
 }
@@ -60,4 +59,10 @@ border-radius: 40px 40px 0 0 ;
 .botoes{
 display: flex;    
 }
+}
+.botao:first-child{
+    border-radius: 40px 0 0 0;
+}
+.botao:last-child{
+border-radius: 0 40px 0 0;
 }
